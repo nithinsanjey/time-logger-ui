@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time logger</title>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    class MyTitle extends React.Component{
+      render(){
+        return (<h3>Hello there,</h3>)
+    }
+  }
+   ReactDOM.render(
+        <MyTitle />,
+        document.getElementById("root")
+      )
+  </script>
+</body>
+</html>
